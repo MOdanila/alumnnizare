@@ -12,7 +12,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <Router>
+    <Router basename="/alumnizare">
       <h1>Un site bootleg pentru 2 oameni si mai bootleg</h1>
       <Routes>
         <Route
